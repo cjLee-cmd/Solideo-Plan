@@ -4,22 +4,22 @@
   "mcp": {
     "sm-test-runner": {
       "type": "local",
-      "command": ["python", ".opencode/mcp/sm-test-runner/server.py", "3010"],
+      "command": ["python3", ".opencode/mcp/sm-test-runner/server.py"],
       "enabled": true
     },
     "sm-diff-viewer": {
       "type": "local",
-      "command": ["python", ".opencode/mcp/sm-diff-viewer/server.py", "3011"],
+      "command": ["python3", ".opencode/mcp/sm-diff-viewer/server.py"],
       "enabled": true
     },
     "sm-hwpx-builder": {
       "type": "local",
-      "command": ["python", ".opencode/mcp/sm-hwpx-builder/server.py", "3012"],
+      "command": ["python3", ".opencode/mcp/sm-hwpx-builder/server.py"],
       "enabled": true
     },
     "sm-obsidian-sync": {
       "type": "local",
-      "command": ["python", ".opencode/mcp/sm-obsidian-sync/server.py", "3013"],
+      "command": ["python3", ".opencode/mcp/sm-obsidian-sync/server.py"],
       "enabled": true
     }
   }
