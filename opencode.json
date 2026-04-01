@@ -1,0 +1,26 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": ["CLAUDE.md"],
+  "mcp": {
+    "sm-test-runner": {
+      "type": "local",
+      "command": ["python", ".opencode/mcp/sm-test-runner/server.py", "3010"],
+      "enabled": true
+    },
+    "sm-diff-viewer": {
+      "type": "local",
+      "command": ["python", ".opencode/mcp/sm-diff-viewer/server.py", "3011"],
+      "enabled": true
+    },
+    "sm-hwpx-builder": {
+      "type": "local",
+      "command": ["python", ".opencode/mcp/sm-hwpx-builder/server.py", "3012"],
+      "enabled": true
+    },
+    "sm-obsidian-sync": {
+      "type": "local",
+      "command": ["python", ".opencode/mcp/sm-obsidian-sync/server.py", "3013"],
+      "enabled": true
+    }
+  }
+}
