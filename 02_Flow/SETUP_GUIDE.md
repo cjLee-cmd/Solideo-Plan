@@ -9,13 +9,14 @@
 │   ├── sm-diff-viewer_설치가이드.md
 │   ├── sm-hwpx-builder_설치가이드.md
 │   └── sm-obsidian-sync_설치가이드.md
-├── 02_Flow/                    # Flow 요소 기획 문서 (Sol.1~6)
-│   ├── Sol_1_계획/             # SK_design_spec 등 4개 요소
+├── 02_Flow/                    # Flow 요소 기획 문서 (Sol.1~7)
+│   ├── Sol_1_계획/             # SK_design_spec 등 4개 요소 (Speckit 8단계)
 │   ├── Sol_2_분석/             # SK_code_analyze 등 5개 요소
 │   ├── Sol_3_생성/             # SK_code_gen 등 8개 요소
 │   ├── Sol_4_수정/             # SK_code_modify 등 7개 요소
 │   ├── Sol_5_리뷰/             # SK_code_review 등 6개 요소
-│   ├── Sol_6_문서생성/         # SK_doc_md 등 6개 요소
+│   ├── Sol_6_E2E테스트/        # SK_e2e_test_gen 등 6개 요소 (Playwright)
+│   ├── Sol_7_문서생성/         # SK_doc_md 등 6개 요소
 │   └── SETUP_GUIDE.md          # 이 문서
 ├── 03_Tools/                   # 폐쇄망 배포용 실행 파일 패키지
 │   ├── skills/                 # opencode Skill 16개 (SKILL.md)
