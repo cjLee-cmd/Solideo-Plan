@@ -1,6 +1,6 @@
 ---
 name: sk-design-spec
-description: Speckit 기반 신규 소프트웨어 설계 문서(design.md)를 생성한다. 프로젝트 요구사항을 수집하여 아키텍처, 모듈, API, DB, 보안 설계를 포함한 설계 문서를 산출한다.
+description: 신규 소프트웨어 설계 문서(design.md)를 생성한다. 프로젝트 요구사항을 수집하여 아키텍처, 모듈, API, DB, 보안 설계를 포함한 설계 문서를 산출한다. 전체 Speckit 워크플로우는 @sa-architect Agent를 사용하라.
 ---
 
 **[필수] 출력 형식 규칙: 모든 결과는 반드시 마크다운(.md) 파일로 저장한다. .json 파일을 생성하지 마라. 절대 .json 확장자를 사용하지 마라.**
