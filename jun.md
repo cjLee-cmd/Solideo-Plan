@@ -47,6 +47,11 @@ sol. 4. 수정
     - 테스트 실행후 결과 문서화
 sol. 5. 리뷰
     - 생성된 코드 리뷰
+sol. 5.5. E2E 테스트
+    - Playwright 기반 웹 UI E2E 테스트
+    - API 통합 E2E 테스트
+    - 비즈니스 프로세스 E2E 테스트 (기안→결재→승인→완료)
+    - 테스트 실행 후 결과 문서화
 
 sol. 6. 관련 문서 생성
 
@@ -96,6 +101,15 @@ sol. 6. 관련 문서 생성
 - SW_review — 코드 리뷰 → 보안 리뷰 → 이슈 저장 Workflow
 - SA_reviewer — 코드 리뷰를 총괄하는 Agent
 - SSA_security_checker — 보안 검증 Sub-Agent
+
+#### Sol. E2E 테스트
+
+- SK_e2e_test_gen — E2E 테스트 시나리오/코드 생성 Skill (Playwright 웹 + API + 비즈니스)
+- SK_e2e_test_run — E2E 테스트 실행 및 결과 수집 Skill
+- SK_e2e_report — E2E 테스트 종합 보고서 Skill
+- SM_playwright — Playwright 브라우저 자동화 MCP (Microsoft 공식 @playwright/mcp)
+- SW_e2e_testing — 시나리오 생성 → 실행 → 보고서 Workflow
+- SA_e2e_tester — E2E 테스트를 총괄하는 Agent
 
 #### Sol. 6 관련 문서 생성
 
